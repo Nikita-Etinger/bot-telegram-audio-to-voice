@@ -20,21 +20,19 @@ Telegram-бот для конвертации аудиофайлов в голо
    ```bash
    pip install aiogram
 4. Установите FFmpeg (необходим для конвертации):
-   - Ubuntu/Debian:
+- Ubuntu/Debian:
    ```bash
-   sudo apt update && sudo apt install ffmpeg
-  - macOS:
+      sudo apt update && sudo apt install ffmpeg
+- macOS:
    ```bash
-   brew install ffmpeg
-  - Windows:
-   Скачайте с официального сайта https://ffmpeg.org/download.html и добавьте в PATH
+       brew install ffmpeg
+- Windows:
+   ```bash
+     Скачайте с официального сайта https://ffmpeg.org/download.html и добавьте в PATH
 5. Укажите токен бота в коде (файл bot_audio_voice_converter.py):
    ```bash
    BOT_TOKEN = "ваш_токен_бота"
-6. Укажите токен бота в коде (файл main.py или аналогичный):
+6. Запустите приложение:
    ```bash
-   git clone https://github.com/yourusername/bot-telegram-audio-to-voice.git
-   cd bot-telegram-audio-to-voice
-7. Запустите приложение:
-   ```bash
-    python main.py
+   python bot_audio_voice_converter.py
+
