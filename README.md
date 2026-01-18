@@ -22,13 +22,13 @@ Telegram-бот для конвертации аудиофайлов в голо
 4. Установите FFmpeg (необходим для конвертации):
 - Ubuntu/Debian:
    ```bash
-      sudo apt update && sudo apt install ffmpeg
+   sudo apt update && sudo apt install ffmpeg
 - macOS:
    ```bash
-       brew install ffmpeg
+   brew install ffmpeg
 - Windows:
    ```bash
-     Скачайте с официального сайта https://ffmpeg.org/download.html и добавьте в PATH
+   Скачайте с официального сайта https://ffmpeg.org/download.html и добавьте в PATH
 5. Укажите токен бота в коде (файл bot_audio_voice_converter.py):
    ```bash
    BOT_TOKEN = "ваш_токен_бота"
